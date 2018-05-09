@@ -8,32 +8,22 @@
 }
 body{
 	direction: rtl;
+	background-image: url(../images/body.png);
+	background-size: cover;
 }
 header{
-	width: 1341px;
+	width: 1200px;
 	height: 250px;
 	margin: auto;
 	background-image: url(../images/header-image.png);
 }
-
-
-header div{
-	background-color: #000000;
-	opacity: 0.8;
-	
-	
-}
-
-	
-}
-
 
 header img{
 
 	margin: auto 20px;
 }
 nav{
-	width:  1341px;
+	width:  1200px;
 	margin: 8px auto 0;
 	
 	
@@ -55,7 +45,7 @@ nav li {
 }
 
 nav li a {
-	font-family: B Farnaz;
+	font-family: iransans;
     display: block;
     color: rgb(14, 14, 14);
     text-align: center;
@@ -76,28 +66,27 @@ nav li a:hover:not(.active) {
 }
 .main{
 	direction: rtl;
-	width: 1070px;
+	width: 1200px;
 	height: 420px;
 	margin: 5px auto 5px;
 
 }
 
 .content{
-	width: 1060px;
+	width: 900px;
 	float: left;
 	padding-right: 10px;
 	padding-left: 10px;
 	background: linear-gradient(to top, #1a0808 -1%, #46478f 10%, #9e3131 80%,  #1a0808 110%);
-	margin: 5px 0px 7px -128px;
+	margin: 5px 0px 7px 0px;
 	
 	
 }
 .sidebar{
 	
 	width: 240px;
-	height: 1000px;
 	float: right;
-	margin: 5px -128px 0px 0px;
+	margin: 5px 0 10px 0px;
 	background: linear-gradient(to top, #9e3131 10%, #46478f 80%);
 }
 .sidebar ul{
@@ -131,7 +120,7 @@ nav li a:hover:not(.active) {
 	
 }
 footer{
-	width: 1341px;
+	width: 1200px;
 	height: 172px;
 	margin: 10px auto 10px;
 	clear: both;
@@ -175,11 +164,11 @@ footer img{
 	margin:0 auto;
 	left:0;
 	right:0;	
-	width:  1350px;
+	width:  100%;
 }
 
 
-@media screen and (max-width:1365px){
+@media screen and (max-width:768px){
 
 	header{
 		width: 100%;
@@ -195,10 +184,11 @@ footer img{
     .content{
 	   width:100%;
 	   float: right;
-    }
-    .sidebar{
-	   display:none;
-   }
+	}
+	.sidebar{
+		width: 100%;
+	}	
+	
    footer{
 	   width:100%
    }
